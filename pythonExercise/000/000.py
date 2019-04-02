@@ -4,7 +4,7 @@
 
 from PIL import Image, ImageDraw, ImageFont
 
-pic_path = r"C:\Users\ssau\Documents\python-show-me-code\000\headPic.jpg"
+pic_path = r"headPic.jpg"
 # 获取图片对象
 im = Image.open(pic_path)
 # 获取图片宽高
@@ -16,11 +16,11 @@ print(w, h)
 draw = ImageDraw.Draw(im)
 
 # 字体对象
-font = ImageFont.truetype(font=r"C:\Users\ssau\Documents\python-show-me-code\000\arial.ttf", size=55)       
+font = ImageFont.truetype(font=r"arial.ttf", size=55)       
 # 颜色对象
 fillcolor = "#ff0000"
 # 在图片上面绘制数字
 draw.text((650, 50), "99", fill=fillcolor, font=font)
-im.save(r"C:\Users\ssau\Documents\python-show-me-code\000\headPic2.jpeg")
+im.save(r"headPic2.jpeg")
 
 
