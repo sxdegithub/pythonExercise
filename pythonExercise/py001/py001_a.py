@@ -32,10 +32,10 @@ def get_group(num):
     return [get_32() for i in range(num)]
 
 
-if __name__ == "__main__":
-    group = get_group(10)
-    for i in group:
-        print(i)
+# if __name__ == "__main__":
+#     group = get_group(10)
+#     for i in group:
+#         print(i)
 
 """
 HfLdnuOQ-KS4AhnQH-1KP3RuUG-KLIShGZ3
