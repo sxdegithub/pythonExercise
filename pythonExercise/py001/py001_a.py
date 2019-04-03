@@ -36,3 +36,17 @@ if __name__ == "__main__":
     group = get_group(10)
     for i in group:
         print(i)
+
+"""
+HfLdnuOQ-KS4AhnQH-1KP3RuUG-KLIShGZ3
+PYr5WRi2-AsoT9H7f-y4oVxirP-8SiQtw29
+KmN16Ysg-lceCaiHJ-y8zDCALo-Nc4iUXvB
+Y84Wqctx-mZrR0w3t-vNJj1plb-MlLnxkV5
+r1HSyBcP-gSbKBuVj-QutBkVHW-iLBJOgER
+7jDgyFSo-m7qazn09-Vfv4Y9rA-yGKFEfUw
+dcfF2KMb-U1MJ7cle-Sw05G2fm-XnlzUQDF
+wCo27jIp-KPqU0evE-sepUmIyb-TBQps5Vm
+cB395Vg7-mI1sOY26-IRu4fWp0-9rW16Blc
+LxytR2vp-1un56B2O-SuN5v7e9-ZDP96UIb
+
+"""
