@@ -5,9 +5,11 @@
 # 导入..py001/里面的py001_a文件
 
 import sys
+import pymysql
+
 sys.path.append(r'C:\Users\ssau\PycharmProjects\pythonExercise\py001')
 from py001 import py001_a as gsc
-import pymysql
+
 
 connect = pymysql.connect(host='localhost', user='root', password='123456', port=3306, db="interviews")
 cursor = connect.cursor()

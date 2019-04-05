@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3db3080-ac7c-4cf9-b2a7-e00e71ad7be7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/001/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py005/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py005/py005.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001/001-a.py" beforeDir="false" afterPath="$PROJECT_DIR$/001/001-a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/002/002.py" beforeDir="false" afterPath="$PROJECT_DIR$/002/002.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py002/py002.py" beforeDir="false" afterPath="$PROJECT_DIR$/py002/py002.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py003/py003.py" beforeDir="false" afterPath="$PROJECT_DIR$/py003/py003.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,32 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/000/000.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/001/001-a.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-              <folding>
-                <element signature="e#156#169#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/002/002.py">
+        <entry file="file://$PROJECT_DIR$/py005/py005.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="200">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -58,6 +39,7 @@
     <findStrings>
       <find>getdra</find>
       <find>_multiline_check</find>
+      <find>sorted</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -73,14 +55,23 @@
         <option value="$PROJECT_DIR$/001/001-a.py" />
         <option value="$PROJECT_DIR$/001/__init__.py" />
         <option value="$PROJECT_DIR$/002/002.py" />
+        <option value="$PROJECT_DIR$/py002/002.py" />
+        <option value="$PROJECT_DIR$/py001/py001_a.py" />
+        <option value="$PROJECT_DIR$/py004/log.text" />
+        <option value="$PROJECT_DIR$/py002/py002.py" />
+        <option value="$PROJECT_DIR$/py003/py003.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/py004/py004_a.py" />
+        <option value="$PROJECT_DIR$/py004/py004.py" />
+        <option value="$PROJECT_DIR$/py005/py005.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="42" />
-    <option name="y" value="-12" />
-    <option name="width" value="1386" />
-    <option name="height" value="694" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="143" />
+    <option name="y" value="28" />
+    <option name="width" value="1194" />
+    <option name="height" value="661" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -88,7 +79,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,22 +89,18 @@
             <path>
               <item name="pythonExercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonExercise" type="462c0819:PsiDirectoryNode" />
-              <item name="001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonExercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonExercise" type="462c0819:PsiDirectoryNode" />
-              <item name="002" type="462c0819:PsiDirectoryNode" />
+              <item name="py005" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/py003" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -127,6 +113,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ssau\PycharmProjects\pythonExercise\py003" />
+      <recent name="C:\Users\ssau\PycharmProjects\pythonExercise" />
+      <recent name="C:\Users\ssau\PycharmProjects\pythonExercise\py002" />
       <recent name="C:\Users\ssau\PycharmProjects\pythonExercise\000" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -145,8 +134,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.002 (1)">
-    <configuration name="000-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.py004">
+    <configuration name="py002" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonExercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,11 +143,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/000" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py002" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\ssau\PycharmProjects\pythonExercise\000\000-a.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py002/py002.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,82 +156,82 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="000" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="py003" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonExercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\ssau\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py003" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py003/py003.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="py004" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonExercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py004" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py004/py004.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="py004_a" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonExercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py004" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py004/py004_a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonExercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\ssau\PycharmProjects\pythonExercise\000\000.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="001-a" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonExercise" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/001" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/001/001-a.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="002 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonExercise" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/002" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/002/002.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="002" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonExercise" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/001" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\ssau\PycharmProjects\pythonExercise\001\001-a.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.002 (1)" />
-        <item itemvalue="Python.001-a" />
-        <item itemvalue="Python.002" />
-        <item itemvalue="Python.000-1" />
-        <item itemvalue="Python.000" />
+        <item itemvalue="Python.py004" />
+        <item itemvalue="Python.py004_a" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.py003" />
+        <item itemvalue="Python.py002" />
       </list>
     </recent_temporary>
   </component>
@@ -293,26 +282,54 @@
       <option name="project" value="LOCAL" />
       <updated>1554217419572</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="重命名,加上前缀py">
+      <created>1554273127869</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554273127869</updated>
+    </task>
+    <task id="LOCAL-00005" summary="暂时完成">
+      <created>1554284387482</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554284387482</updated>
+    </task>
+    <task id="LOCAL-00006" summary="solved 003">
+      <created>1554286910536</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554286910536</updated>
+    </task>
+    <task id="LOCAL-00007" summary="solved 004">
+      <created>1554296878910</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554296878910</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="143" y="28" width="1194" height="661" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1355175" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16277057" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996277" visible="true" weight="0.11716171" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988831" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6857781" weight="0.20792079" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4988831" weight="0.10066006" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4969697" visible="true" weight="0.09942639" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003723" side_tool="true" visible="true" weight="0.11716171" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5030303" side_tool="true" visible="true" weight="0.09942639" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -322,7 +339,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="000,001,002部分." />
-    <option name="LAST_COMMIT_MESSAGE" value="000,001,002部分." />
+    <MESSAGE value="重命名,加上前缀py" />
+    <MESSAGE value="暂时完成" />
+    <MESSAGE value="solved 003" />
+    <MESSAGE value="solved 004" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved 004" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/Pillow-5.4.1-py3.7-win-amd64.egg/PIL/ImageDraw.py">
@@ -332,7 +354,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/000/headPic2.jpeg">
+    <entry file="file://$PROJECT_DIR$/py000/headPic2.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/_collections_abc.py">
@@ -342,7 +364,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/000/000-a.py">
+    <entry file="file://$PROJECT_DIR$/py000/000-a.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
@@ -356,30 +378,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/000/000.py">
+    <entry file="file://$PROJECT_DIR$/py001/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py000/000.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/001/001-a.py">
+    <entry file="file://$PROJECT_DIR$/py002/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py003/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py004/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py002/py002.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+        <state relative-caret-position="-560">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#154#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py001/py001_a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
             <element signature="e#156#169#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/001/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/002.py">
+    <entry file="file://$PROJECT_DIR$/py003/py003.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="e#133#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py004/py004.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="54" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py004/py004_a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/1901927544/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13200">
+          <caret line="528" selection-start-line="528" selection-end-line="528" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py004/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py005/py005.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
