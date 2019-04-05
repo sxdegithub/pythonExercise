@@ -10,8 +10,8 @@
 # 按比例循环改变图片的分辨率,保证长或者宽不大于6s的分辨率
 
 import os
-import sys
-from PIL import Image, ImageDraw, ImageFont
+
+from PIL import Image
 
 file_path = "C:\\Users\\ssau\\Pictures\\"
 
@@ -24,15 +24,17 @@ print("list of files :{}".format(files))
 
 pics = []
 # 判断文件后缀是否是图片格式
+# 是否有更好的方法直接去判断文件类型
+
 for i in files:
     if i.split(".")[-1].lower().strip() not in pic_postfix:
         print("i.split('.')[-1].lower()  -->", i.split(".")[1].lower().strip())
         files.remove(i)
 
 # 图片文件列表
-print(" pictures :{} ".format(files))
-for i in files:
-    print("file paths -->{}<--".format(file_path + i))
+# print(" pictures :{} ".format(files))
+# for i in files:
+#     print("file paths -->{}<--".format(file_path + i))
 
 for i in files:
     img = Image.open(file_path + i)
