@@ -5,7 +5,10 @@ __pycache__/
 
 
 test.py
+test_a.py
 .idea
+__init__.py
+
 
 # C extensions
 *.so
