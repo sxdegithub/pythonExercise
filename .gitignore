@@ -3,12 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-
+#自己的屏蔽文件列表
 test.py
 test_a.py
 .idea
 __init__.py
-
+*.jpg
 
 # C extensions
 *.so
