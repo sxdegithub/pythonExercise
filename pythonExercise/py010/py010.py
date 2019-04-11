@@ -9,35 +9,35 @@
 # 将字符写入到图片上
 # 对图片进行模糊处理
 
-import string
 import random
+import string
+
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
-letters = string.ascii_letters
-digit = string.digits
-population = letters + digit
-print("population --->{}".format(population))
 
-# 使用random生成四个随机字符.
-ver_code = "".join(random.sample(population, 4))
-print("ver_code -->{}".format(ver_code))
+# 生成验证码
+def get_code():
+    letters = string.ascii_letters
+    digit = string.digits
+    population = letters + digit
+    # print("population --->{}".format(population))
+    # 使用random生成四个随机字符.
+    ver_code = "".join(random.sample(population, 4))
+    # print("ver_code -->{}".format(ver_code))
+    return ver_code
 
 
-# def rndChar():
+# 生成一个随机字符
+# def randchr():
 #     return chr(random.randint(65, 90))
 
-
-# 在图上绘制生成的验证码.
-# sourceFilePath = "blank.png"
-# img = Image.open(sourceFilePath)
-
 # 生成背景随机颜色
-def randColor():
+def rand_color():
     return (random.randint(128, 255), random.randint(128, 255), random.randint(128, 255))
 
 
 # 生成字符的随机颜色
-def randColor2():
+def rand_color2():
     return (random.randint(32, 127), random.randint(32, 127), random.randint(32, 127))
 
 
@@ -50,11 +50,14 @@ fillcolor = "#ff0000"
 # 对背景做随机颜色填充
 for i in range(0, 240):
     for j in range(0, 60):
-        draw.point((i, j), randColor())
+        draw.point((i, j), rand_color())
+
+code = get_code()
+print("code --->{}".format(code))
 
 # 在图片上绘制验证码的字符
-for i in ver_code:
-    draw.text((40 + 40 * ver_code.index(i), 5), i, fill=randColor2(), font=fnt)
+for i in code:
+    draw.text((40 + 40 * code.index(i), 5), i, fill=rand_color2(), font=fnt)
 
 #  将字符写入到图片上
 # draw.text((60, 5), ver_code, fill=fillcolor, font=fnt)
