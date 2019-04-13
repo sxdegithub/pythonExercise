@@ -10,6 +10,10 @@ test_a.py
 __init__.py
 *.jpg
 
+#匹配下jandan的正则
+py013_a.py
+
+
 # C extensions
 *.so
 
