@@ -11,6 +11,8 @@ __init__.py
 *.jpg
 rr.txt
 .ssh/
+*.xlsx
+.gitconfig
 
 #匹配下jandan的正则
 py013_a.py
